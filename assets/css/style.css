@@ -1,107 +1,98 @@
 body {
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/letter_l.jpg");
 }
 
-#headercontainer {
-    color: #777777;
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-width: 3px;
-    border-bottom-color: #dddddd;
-    width: 960px;
-    margin: 0 auto;
+
+#headercontainer{
+    border-bottom: 2px solid #89bdd3;
+    height: 60px;
+    background-color: white;
 }
 
 .header {
     background:#2b2b29;
-    border:3px #fcf7f2;
-    width: 300px;
-    height: 30px;
-    padding: 6px;
-    color: #fcf7f2;
-    margin-bottom: -20px;
+    border-bottom: none;
+    max-width: 600px;
+    height: 50%;
+    padding: 15px;
+    color: #ffffff;
+    margin-left: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-bottom: -10px;
     float: left;
     font-size: 24px;
 }
-#navigationcontainer {
-    
-}
-
-.top-left {
-    
-}
-
-.top-middle {
-   
-}
-
-
-.top-right {
-    
-}
 
 nav{
-    padding-right: 12.5%; 
+    width: 270px;
     float: right;
+    text-align: center;
+    margin-right: 90px;
+    color:white;
 }
 
-a:link{
-    color: #777777;
-    text-decoration: none;
-} 
+ul{
+    clear: both;
+    color: #2b2b29;
+    font-size: 15px;
+    list-style: bold;
+    margin: 0;
+    padding: 0;
+}
 
-#maincontent {
-    background-image: url("../images/lj_1x.jpg");
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
+.link-1{
+    float: left;
+    margin-top: 20px;
+}
+
+.link-2{
+    float: left;
+    margin-top: 20px;
+}
+
+.link-3{
+    float: left;
+    margin-top: 20px;
+}
+
+#maincontent{
+    clear: both;
     overflow: auto;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
 }
 
 #AboutMe{
-    border-width: 1px;
-    background: #fcf7f2;
-    width: 750px;
-    height: 10px;
-    margin-bottom: 5%;
-    padding: 2%;
-    left: 150px;
+    border-bottom: 2px solid #89bdd3;
+    width: 960px;
+    margin-right: 50px;
     font-size: 30px;
+    background-color:#e1e8f0;
 }
 
-.My-bio {
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-left: 182px;
-    width: 750px;
+.My-bio{
+    background-color: #e1e8f0;
+    height: 100%;
+    padding: 50px;
 }
 
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-    line-height: 45px;
-    float: left;
-  }
-
-
-#main-info {
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+#mypic{
+    margin: 20px 20px 20px 20px;
 }
+
 
 footer {
     background: #666666;
     font-size: 15px;
     color: #ffffff;
-    border-top-style: solid;
-    border-width: 10px;
-    border-color: green;
+    border-top: 6px solid #89bdd3;
     padding: 2.5%;
     text-align: center;
 }
