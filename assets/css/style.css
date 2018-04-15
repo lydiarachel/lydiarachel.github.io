@@ -1,98 +1,178 @@
+
 body {
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("../images/letter_l.jpg");
+    font-size: 18px;
+    line-height: 34px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-image: url("../imgs/letter_l.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
 }
 
-
-#headercontainer{
-    border-bottom: 2px solid #89bdd3;
-    height: 60px;
-    background-color: white;
-}
-
-.header {
-    background:#2b2b29;
-    border-bottom: none;
-    max-width: 600px;
-    height: 50%;
-    padding: 15px;
-    color: #ffffff;
-    margin-left: 140px;
+h1 {
+    color: #4aaaa5;
+    line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    vertical-align: middle;
-    margin-bottom: -10px;
-    float: left;
     font-size: 24px;
+    font-weight: bold;
 }
 
-nav{
-    width: 270px;
-    float: right;
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/*nav bar*/
+.container-fluid {
+    max-width: 960px;
+    padding: 0 5px 0 5px;
+    margin: auto;
+}
+
+.navbar-header {
+    background: #fff;
+    color: #fff;
+}
+
+.navbar-brand {
+    width: 250px;
+    height: 50px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin-right: 90px;
-    color:white;
+    line-height: 20px;
+    color: white !important;
+    font-weight: 700;
+    font-size: 24px; 
+    text-decoration: none;
 }
 
-ul{
-    clear: both;
-    color: #2b2b29;
-    font-size: 15px;
-    list-style: bold;
-    margin: 0;
-    padding: 0;
+.navbar-brand:hover {
+    background-color: #4aaaa5 !important;
 }
 
-.link-1{
-    float: left;
-    margin-top: 20px;
+a:link {
+    color: #777;
 }
 
-.link-2{
-    float: left;
-    margin-top: 20px;
-}
-
-.link-3{
-    float: left;
-    margin-top: 20px;
-}
-
-#maincontent{
-    clear: both;
-    overflow: auto;
+/*main index*/
+.row{
     margin: 0 auto;
-    width: 960px;
-    height: 100%;
+    max-width: 980px;
 }
 
-#AboutMe{
-    border-bottom: 2px solid #89bdd3;
-    width: 960px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color:#e1e8f0;
+.about {
+    margin: 20px 5px 20px -15px;
+    padding: 0 20px;
+    background-color: #ffffff; 
+    border: solid #efefef 2px;
+    opacity: .9;
+}
+.content-about {
+    font-size: 18px;
+    line-height: 1.75;
+    padding: 20px 0;
+    border-top: solid #ccc 2px;
 }
 
-.My-bio{
-    background-color: #e1e8f0;
-    height: 100%;
-    padding: 50px;
+#my-image{
+    float: left;
+    width: 200px;
+    margin: 10px 10px 10px 0;
 }
 
-#mypic{
-    margin: 20px 20px 20px 20px;
+/*main portfolio*/
+.work {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
 }
 
+.img-thumbnail {
+    width: 75%;
+    padding-bottom: 10px;
+    margin: 0px 10px 20px 10px;
+}
 
-footer {
-    background: #666666;
-    font-size: 15px;
+.img-title {
+    top: 60%;
+    left: 3%;
+    width: 75%;
     color: #ffffff;
-    border-top: 6px solid #89bdd3;
-    padding: 2.5%;
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    line-height: 1.5;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/*main contact*/
+input {
+    margin-bottom: 10px;
+    color: #777777; 
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type=text] {
+    border: 1px solid #ddd;
+}
+
+textarea {
+    border-color: #ccc;
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.submitbutton {
+    color: white;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: #4aaaa5;
+}
+
+/*sidebar panel*/
+.sidebarpanel {
+    float: left;
+    width: 30%;
+    margin: 20px 20px 10px;
+}
+
+h3#panel-title {
+    font-size: 20px;
+}
+
+#panel-body {
+    border-top: solid #ccc 2px;
+}
+.social {
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 20px 5px;
+}
+
+/*footer*/
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
     text-align: center;
 }
